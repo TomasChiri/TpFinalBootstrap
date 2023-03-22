@@ -1,0 +1,114 @@
+:root{
+    --crema: #F6F6E9;
+    --marron: #7B3911;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar{
+    background-color: var(--crema) !important;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+}
+
+.inicio{
+    height: 800px;
+    background-image: url(../img/fondoPrincipal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sombra{
+    text-shadow: 1px 1px 1px black;
+}
+
+.inicio_titulo{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 3rem auto;
+    color: var(--marron);
+    text-align: center;
+}
+
+.inicio_subtitulos{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 2rem;
+    padding: 2rem;
+    border-radius: 12px;
+    color: var(--crema); 
+}
+
+.inicio_subtitulos h1{
+    font-size: 2rem;
+    width: 75%;
+}
+
+.inicio_subtitulos h3{
+    font-size: 1.3rem;
+}
+
+.card h5{
+    font-size: 1.5rem;
+}
+
+.card img{
+    height: 250px;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+.carrusel_img{
+    height: 700px;
+}
+
+.carrusel button{
+    color: black;
+}
+
+.contacto form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer{
+    height: 100px;
+    background-color: var(--crema);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.logoFooter{
+    height: 65px;
+    width: 70px;
+}
+
+@media screen and (max-width: 768px){
+    .carrusel_img{
+        height: 400px;
+    }
+}
